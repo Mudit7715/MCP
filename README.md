@@ -104,7 +104,7 @@ Enter your question: Check if file 'test.txt' exists in current directory
 Answer: The file 'test.txt' was not found in the current directory.
 
 Enter your question: Generate a secure password
-Answer: Here's a generated 12-character password: K9#mX2$vB8pQ
+Answer: Here is a generated 12-character password: K9#mX2$vB8pQ
 ```
 
 ## 🔧 Configuration
