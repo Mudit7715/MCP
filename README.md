@@ -44,7 +44,7 @@ This is a very basic implementation on top of which we can build more.(No extern
 ### Step 1: Clone or Download
 
 ```bash
-# Create project directory
+# Download files 
 wget https://github.com/Mudit7715/MCP.git
 cd MCP
 
@@ -63,7 +63,6 @@ mcp_env\Scripts\activate     # Windows
 # Install required packages
 pip install fastmcp
 pip install langchain-mcp-adapters langgraph langchain-ollama langchain
-
 
 # Check if Ollama is running
 curl http://localhost:11434/api/tags
