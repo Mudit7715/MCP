@@ -6,17 +6,12 @@ A simple **Model Context Protocol (MCP)** server that extends AI capabilities wi
 
 ## 🎯 What is This?
 
-This project creates a **bridge** between AI models (like those running in Ollama) and your computer's functionality. Think of it as giving the AI hands to:
-- Do math calculations
-- Check files on your computer
-- Transform text
-- Generate passwords
-- Convert temperatures
-- And much more!
+This is a tutorial which creates a **bridge** between AI models (like those running in Ollama) and your computer's functionality using Model Context Protocol, Langchain and Ollama. Think of it as giving the AI hands to do any task which ealier seem to impossible by AI.
 
 ---
 
 ## 🚀 Features
+This is a very basic implementation on top of which we can build more.(No external APIs connected yet)
 
 ### Available Tools
 
