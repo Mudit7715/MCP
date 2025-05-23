@@ -98,7 +98,7 @@ python client.py
 ### Step 4: Using the tools
 ```bash
 Enter your question: Calculate 50 * 3 + 10
-Answer: I'll calculate that for you. 50 * 3 + 10 = 160
+Answer: I will calculate that for you. 50 * 3 + 10 = 160
 
 Enter your question: Check if file 'test.txt' exists in current directory
 Answer: The file 'test.txt' was not found in the current directory.
