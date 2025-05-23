@@ -86,7 +86,7 @@ mcp-ollama-server/
 └── README.md          # This file
 ```
 
-### Start the client (automatically starts the server)
+### Step 3: Running the server and client.
 ```bash
 source mcp_env/bin/activate
 python server.py
@@ -95,4 +95,62 @@ python server.py
 python client.py
 ```
 
+### Step 4: Using the tools
+```bash
+Enter your question: Calculate 50 * 3 + 10
+Answer: I'll calculate that for you. 50 * 3 + 10 = 160
 
+Enter your question: Check if file 'test.txt' exists in current directory
+Answer: The file 'test.txt' was not found in the current directory.
+
+Enter your question: Generate a secure password
+Answer: Here's a generated 12-character password: K9#mX2$vB8pQ
+```
+
+## 🔧 Configuration
+### 🛠️ Modify Server Tools
+
+#### To add new tools, edit server.py:
+```bash
+@mcp.tool()
+def your_new_tool(parameter: str) -> str:
+    """Description of what your tool does."""
+    # Your tool logic here
+    return f"Result: {parameter}"
+```
+
+### 🤖 Change Ollama Model
+
+Edit client.py and change the model:
+```bash
+agent = create_react_agent("ollama:llama3.2", tools)  # Change model here
+```
+
+### 🛠️ Server Configuration
+
+Edit config.json to change server parameters:
+```bash
+{
+  "mcpServers": {
+    "my-simple-assistant": {
+      "command": "python",
+      "args": ["/full/path/to/your/server.py"],
+      "cwd": "/full/path/to/your/project"
+    }
+  }
+}
+```
+## 🤝 Contributing
+
+Want to add more tools? Here's how:
+
+```bash
+@mcp.tool()
+def my_awesome_tool(input_param: str) -> str:
+    """What this tool does."""
+    # Your logic here
+    return f"Result: {input_param}"
+```
+Test it by asking the AI to use your tool
+
+Update documentation with your new tool
