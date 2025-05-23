@@ -67,7 +67,7 @@ mcp_env\Scripts\activate     # Windows
 ```bash
 # Install required packages
 pip install fastmcp
-pip install langchain-mcp-adapters langgraph langchain-ollama
+pip install langchain-mcp-adapters langgraph langchain-ollama langchain
 
 
 # Check if Ollama is running
