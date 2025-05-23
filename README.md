@@ -48,8 +48,6 @@ This is a very basic implementation on top of which we can build more.(No extern
 wget https://github.com/Mudit7715/MCP.git
 cd MCP
 
-# Copy the provided files into this directory
-
 # Create virtual environment
 python -m venv mcp_env
 # Activate it
