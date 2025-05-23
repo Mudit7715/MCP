@@ -82,7 +82,6 @@ mcp-ollama-server/
 ├── server.py          # MCP server with all tools
 ├── client.py          # Client that connects server to Ollama
 ├── config.json        # Server configuration
-├── mcp_env/           # Virtual environment
 └── README.md          # This file
 ```
 
