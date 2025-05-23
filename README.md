@@ -45,8 +45,8 @@ This is a very basic implementation on top of which we can build more.(No extern
 
 ```bash
 # Create project directory
-mkdir mcp-ollama-server
-cd mcp-ollama-server
+wget https://github.com/Mudit7715/MCP.git
+cd MCP
 
 # Copy the provided files into this directory
 
