@@ -60,8 +60,8 @@ source mcp_env/bin/activate  # Linux/Mac
 # OR
 mcp_env\Scripts\activate     # Windows
 ```
----
 
+### Step 2: Install ollama and required libraries.
 ```bash
 # Install required packages
 pip install fastmcp
@@ -71,12 +71,12 @@ pip install langchain-mcp-adapters langgraph langchain-ollama
 # Check if Ollama is running
 curl http://localhost:11434/api/tags
 
-# If not installed, visit: https://ollama.ai
+# If not installed, visit: [https://ollama.ai](https://ollama.com/library)
 # Pull a model (if you don't have one)
 ollama pull llama3.1
 ```
 
-#Project Structure
+### Project Structure
 ```bash
 mcp-ollama-server/
 ├── server.py          # MCP server with all tools
@@ -86,7 +86,7 @@ mcp-ollama-server/
 └── README.md          # This file
 ```
 
-# Start the client (automatically starts the server)
+### Start the client (automatically starts the server)
 ```bash
 source mcp_env/bin/activate
 python server.py
