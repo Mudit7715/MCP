@@ -36,9 +36,11 @@ This project creates a **bridge** between AI models (like those running in Ollam
 
 ## 📋 Prerequisites
 
-- Python 3.8 or higher
+- Python 3.10 or higher
 - Ollama installed and running
 - Basic familiarity with terminal/command line
+- Langchain models
+- API basics
 
 ---
 
