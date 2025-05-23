@@ -73,7 +73,7 @@ pip install langchain-mcp-adapters langgraph langchain-ollama
 # Check if Ollama is running
 curl http://localhost:11434/api/tags
 
-# If not installed, visit: [https://ollama.ai](https://ollama.com/library)
+# If not installed, visit: https://ollama.com/library
 # Pull a model (if you don't have one)
 ollama pull llama3.1
 ```
