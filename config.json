@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "my-simple-assistant": {
+      "command": "python",
+      "args": ["/home/mcode/Desktop/LLMs/MCP_Server_tutorial/server.py"],
+      "cwd": "/home/mcode/Desktop/LLMs/MCP_Server_tutorial"
+    }
+  }
+}
